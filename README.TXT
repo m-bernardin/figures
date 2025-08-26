@@ -52,3 +52,4 @@ calling 'makeinvisible' twice keeps it invisible; its not a switch, to remake it
 attempting to change the colour w/o quotes retrns an invalid string; quotes are required
 "brown" colour created
 the code pad follows the same syntax as the commands coming out of the terminal (when 'record method calls' is selected)
+the default positions for all classes now render a scene of a person outside their house on the hill with the sun in the sky
