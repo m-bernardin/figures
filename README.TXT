@@ -45,3 +45,10 @@ to draw a picture. It can be used to experiment with coding.
 part ii:
 bluej v GitHub files difference 
 most files are the same but github has an extra named 'package.bluej' it seems to be an internl file for bluej telling the app how and what to display, similar to an internal readme just for the program 
+
+part iii:
+"pink" colour created 
+calling 'makeinvisible' twice keeps it invisible; its not a switch, to remake it visible again you'd have to call 'makeVisible
+attempting to change the colour w/o quotes retrns an invalid string; quotes are required
+"brown" colour created
+the code pad follows the same syntax as the commands coming out of the terminal (when 'record method calls' is selected)

@@ -1,6 +1,8 @@
 import java.awt.*;
 import java.awt.geom.*;
 
+
+
 /**
  * A circle that can be manipulated and that draws itself on a canvas.
  * 
@@ -13,18 +15,18 @@ public class Circle
     private int diameter;
     private int xPosition;
     private int yPosition;
-    private String color;
+    private String colour;
     private boolean isVisible;
     
     /**
-     * Create a new circle at default position with default color.
+     * Create a new circle at default position with default colour.
      */
     public Circle()
     {
-        diameter = 68;
-        xPosition = 230;
-        yPosition = 90;
-        color = "blue";
+        diameter = 900;
+        xPosition = -210;
+        yPosition = 210;
+        colour = "green";
     }
 
     /**
@@ -156,12 +158,12 @@ public class Circle
     }
 
     /**
-     * Change the color. Valid colors are "red", "yellow", "blue", "green",
+     * Change the colour. Valid colours are "red", "yellow", "blue", "green",
      * "magenta" and "black".
      */
-    public void changeColor(String newColor)
+    public void changeColour(String newColour)
     {
-        color = newColor;
+        colour = newColour;
         draw();
     }
 
@@ -172,7 +174,7 @@ public class Circle
     {
         if(isVisible) {
             Canvas canvas = Canvas.getCanvas();
-            canvas.draw(this, color, new Ellipse2D.Double(xPosition, yPosition, 
+            canvas.draw(this, colour, new Ellipse2D.Double(xPosition, yPosition, 
                                                           diameter, diameter));
             canvas.wait(10);
         }

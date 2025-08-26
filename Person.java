@@ -21,12 +21,12 @@ public class Person
      */
     public Person()
     {
-        height = 60;
-        width = 30;
+        height = 50;
+        width = 25;
         xPosition = 280;
-        yPosition = 190;
+        yPosition = 180;
         color = "black";
-        isVisible = false;
+        isVisible = true;
     }
 
     /**

@@ -3,6 +3,7 @@ import java.awt.*;
 import java.util.List;
 import java.util.*;
 
+
 /**
  * Canvas is a class to allow for simple graphical drawing on a canvas.
  * This is a modification of the general purpose Canvas, specially made for
@@ -142,6 +143,12 @@ public class Canvas
         }
         else if(colorString.equals("white")) {
             graphic.setColor(Color.white);
+        }
+        else if(colorString.equals("pink")) {
+            graphic.setColor(new Color(255, 51, 211));
+        }
+        else if(colorString.equals("brown")){
+            graphic.setColor(new Color(153, 65, 6));
         }
         else {
             graphic.setColor(Color.black);
