@@ -233,5 +233,22 @@ public class Canvas
             graphic.fill(shape);
         }
     }
+    private Square house;
+    private Circle globe;
+    private Triangle roof;
+    private Person person;
+    private Circle2 sun;
 
+    /**
+     * Constructor for objects of class draw
+     */
+    public void scene()
+    {
+        Square house = new Square();
+        Circle globe = new Circle();
+        Triangle roof = new Triangle();
+        Person person = new Person();
+        Circle2 sun = new Circle2();
+    
+    }
 }

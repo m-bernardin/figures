@@ -53,3 +53,4 @@ attempting to change the colour w/o quotes retrns an invalid string; quotes are 
 "brown" colour created
 the code pad follows the same syntax as the commands coming out of the terminal (when 'record method calls' is selected)
 the default positions for all classes now render a scene of a person outside their house on the hill with the sun in the sky
+added new class 'Picture' which contains the method 'picture();' it automates the process of creating objects and making them visible, the code is copied from the 'house' project
